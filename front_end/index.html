@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>List of Places</title>
+    <link rel="stylesheet" href="/front_end/styles/styles.css">
+    <link rel="icon" href="images/icon.png">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <img src="images/logo.png" alt="logo">
+            <a href="login.html" id="login-link">Login</a>
+            <a href="index.html" id="home-link">Home</a>
+        </nav>
+    </header>
+    <main>
+        <section id="filter">
+            <label for="country-filter">Filter by Country:</label>
+            <select id="country-filter">
+                <option value="All">All</option>
+                <!-- Options will be populated dynamically -->
+            </select>
+        </section>
+        <section id="places-list">
+        </section>
+    </main>
+    <script src="scripts.js"></script>
+</body>
+
+</html>
+<footer>
+    <p>&copy; All rights reserved Holberton 2024</p>
+</footer>
